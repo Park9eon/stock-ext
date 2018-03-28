@@ -1,0 +1,14 @@
+{
+  "name": "주식 도우미",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "all_frames": true,
+    "css": [ "extension.css" ],
+    "matches": ["http://finance.naver.com/*"]
+  }],
+  "description": "주식 사이트 최근 조회항목 가려줌",
+  "icons": {
+  },
+  "permissions": []
+}

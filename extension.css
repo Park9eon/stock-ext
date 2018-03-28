@@ -1,0 +1,15 @@
+.home_spot, .aside_section.cop_list {
+    position: relative;
+}
+.home_spot:after, .aside_section.cop_list:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #FAFAFA;
+}
+.home_spot:hover:after, .aside_section.cop_list:hover:after {
+    bottom: inherit;
+}
