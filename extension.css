@@ -13,3 +13,7 @@
 .home_spot:hover:after, .aside_section.cop_list:hover:after {
     bottom: inherit;
 }
+/* 모바일 */
+.ct_box.home_my._home_my_wrapper {
+    display: none;
+}

@@ -5,7 +5,7 @@
   "content_scripts": [{
     "all_frames": true,
     "css": [ "extension.css" ],
-    "matches": ["http://finance.naver.com/*"]
+    "matches": ["http://finance.naver.com/*", "http://m.stock.naver.com/*"]
   }],
   "description": "주식 사이트 최근 조회항목 가려줌",
   "icons": {
